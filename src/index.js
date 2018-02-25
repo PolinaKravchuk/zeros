@@ -1,8 +1,8 @@
 module.exports = function getZerosCount(number) {
-  var kol_5 = number / 5;
-  var kol_2 = number / 2;
+  var kol;
 
-  if (kol_2 < kol_5) return kol_2;
-  else return kol_5;
-  
+  for (var i = 0; i < number; i++ ){
+  	if(i % 10 == 0) kol++;
+  }
+  return kol;
 }
