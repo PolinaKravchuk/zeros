@@ -1,5 +1,19 @@
 module.exports = function getZerosCount(number) {
-  var kol_5 = 0,
+	
+	var kol_5_5 = 1,
+	    kol = 0;
+
+	while (kol_5_5 < number){
+		kol_5_5 = kol_5_5 * 5;
+		mass.push (kol_5_5);
+	}
+
+	for (var i = 0; i < mass.length; i++){
+		t = number / mass[i];
+		sum = sum + t;
+	}
+	return sum;
+/*  var kol_5 = 0,
   	  kol_2 = 0;
   var t5, t2;
   for (var i = 0; i < number; i++ ){
@@ -21,5 +35,5 @@ module.exports = function getZerosCount(number) {
   }
 
   if(kol_5 < kol_2) return kol_5;
-  else return kol2;
+  else return kol2;*/
 }
