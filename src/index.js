@@ -3,7 +3,8 @@ module.exports = function getZerosCount(number) {
 	var kol_5_5 = 1,
 	    kol = 0,
 	    mass = [],
-	    sum = 0;
+	    sum = 0,
+	    t;
 
 	while (kol_5_5 < number){
 		kol_5_5 = kol_5_5 * 5;
