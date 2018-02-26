@@ -13,6 +13,7 @@ module.exports = function getZerosCount(number) {
 
 	for (var i = 0; i < mass.length; i++){
 		t = number / mass[i];
+		t = Math.floor (t);
 		sum = sum + t;
 	}
 	return sum;
